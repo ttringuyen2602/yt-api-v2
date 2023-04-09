@@ -1,0 +1,34 @@
+{
+  "kind": "youtubeAnalytics#resultTable",
+  "columnHeaders": [
+    { "name": "day", "columnType": "DIMENSION", "dataType": "STRING" },
+    {
+      "name": "subscribersGained",
+      "columnType": "METRIC",
+      "dataType": "INTEGER"
+    },
+    { "name": "views", "columnType": "METRIC", "dataType": "INTEGER" },
+    { "name": "likes", "columnType": "METRIC", "dataType": "INTEGER" },
+    {
+      "name": "estimatedMinutesWatched",
+      "columnType": "METRIC",
+      "dataType": "INTEGER"
+    },
+    {
+      "name": "averageViewDuration",
+      "columnType": "METRIC",
+      "dataType": "INTEGER"
+    }
+  ],
+  "rows": [
+    ["2023-03-27", 0, 0, 0, 0, 0],
+    ["2023-03-28", 0, 0, 0, 0, 0],
+    ["2023-03-29", 0, 0, 0, 0, 0],
+    ["2023-03-30", 0, 0, 0, 0, 0],
+    ["2023-03-31", 0, 0, 0, 0, 0],
+    ["2023-04-01", 0, 0, 0, 0, 0],
+    ["2023-04-02", 0, 0, 0, 0, 0],
+    ["2023-04-03", 0, 0, 0, 0, 0],
+    ["2023-04-04", 0, 0, 0, 0, 0]
+  ]
+}
