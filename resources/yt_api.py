@@ -22,7 +22,7 @@ CLIENT_SECRETS_FILE = './resources/client.json'
 
 def get_credentials():
     creds = None
-    token_file = 'token.json'
+    token_file = './resources/token.json'
 
     # Kiểm tra xem đã có thông tin xác thực trong file token.json chưa
     if os.path.exists(token_file) and os.path.getsize(token_file) > 0:
